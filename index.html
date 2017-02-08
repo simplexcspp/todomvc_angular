@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>angular • TodoMVC</title>
+		<!--todomvc左边导航栏内容，注释以清除报错-->
+		<!--<link rel="stylesheet" href="./assets/lib/base.css">-->
+		<link rel="stylesheet" href="./assets/lib/index.css">
+		<!-- CSS overrides - remove if you don't need it -->
+		<!--<link rel="stylesheet" href="css/app.css">-->
+	</head>
+	<body ng-app="todoApp" ng-controller="todoCtrl">
+
+		<div ng-view></div>
+
+		<footer class="info">
+			<p>Click enter to edit a todo</p>
+			<!-- Remove the below line ↓ -->
+			<p>Template by <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
+			<!-- Change this out with your name and url ↓ -->
+			<p>Created by <a href="https://github.com/simplexcspp">simplexcspp</a></p>
+			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+		</footer>
+
+		<!-- Scripts here. Don't remove ↓ -->
+		<!--todomvc左边导航栏内容，注释以清除报错-->
+		<!--<script src="./assets/lib/base.js"></script>-->
+
+		<script src="./assets/lib/angular.min.js"></script>
+		<script src="./assets/lib/angular-route.min.js"></script>
+		<script src="./src/js/app.js"></script>
+		<script src="./src/js/todomvcController.js"></script>
+		<script src="./src/js/todomvcService.js"></script>
+	</body>
+</html>
